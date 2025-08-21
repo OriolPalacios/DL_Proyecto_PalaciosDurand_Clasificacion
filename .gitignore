@@ -1,0 +1,10 @@
+# Ignorar archivos de checkpoints y modelos pesados
+*.keras
+*.h5
+
+# Ignorar carpetas de entorno de Python
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
