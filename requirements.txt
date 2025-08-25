@@ -1,0 +1,25 @@
+# Módulos principales
+import tensorflow as tf
+import tensorflow_datasets as tfds
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import random
+import os
+
+# Módulos de Keras
+from tensorflow.keras import layers
+from tensorflow.keras.models import Model
+from tensorflow.keras.applications import MobileNetV2, EfficientNetB0, ResNet50
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, CSVLogger
+
+# Preprocesadores especificos por arquitectura
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input as mobilenet_preprocess
+from tensorflow.keras.applications.efficientnet import preprocess_input as efficientnet_preprocess
+from tensorflow.keras.applications.resnet import preprocess_input as resnet_preprocess
+
+# Módulos de Scikit-learn para evaluación
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, confusion_matrix
+
+print("TensorFlow Version:", tf.__version__)

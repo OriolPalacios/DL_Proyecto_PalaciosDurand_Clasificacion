@@ -1,0 +1,4 @@
+Modelo,Accuracy Train,Accuracy Test,F1-Macro Train,F1-Macro Test,Precision Macro Train,Precision Macro Test
+mobilenetv2,0.9837,0.9130,0.9840,0.9127,0.9846,0.9123
+efficientnetb0,0.9911,0.9185,0.9911,0.9135,0.9915,0.9191
+resnet50,1.0000,0.9058,1.0000,0.9013,1.0000,0.9026
